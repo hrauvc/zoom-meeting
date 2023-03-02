@@ -1,0 +1,4 @@
+/vendor
+/coverage-report
+.phpunit.result.cache
+composer.lock

@@ -1,0 +1,41 @@
+{
+    "name": "laravelers-academy/zoom-meeting",
+    "description": "Paquete de laravel para integrar la API de Zoom",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LaravelersAcademy\\ZoomMeeting\\": "src/",
+            "LaravelersAcademy\\ZoomMeeting\\Database\\Factories\\": "database/factories/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaravelersAcademy\\ZoomMeeting\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Homero Raul",
+            "email": "h.raulvc@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "orchestra/testbench": "^7.0",
+        "phpunit/phpunit": "^9.0",
+        "laravel/legacy-factories": "^1.0@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelersAcademy\\ZoomMeeting\\Providers\\ZoomMeetingServiceProvider",
+                "LaravelersAcademy\\ZoomMeeting\\Providers\\ZoomRouteServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "laravel/sanctum": "^4.0@dev"
+    }
+}
