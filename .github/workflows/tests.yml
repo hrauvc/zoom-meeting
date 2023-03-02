@@ -22,10 +22,14 @@ jobs:
 
       - name: Request Zoom Credentials
         run: |
-          echo "Zoom account: " && read zoom_account
-          echo "Zoom client: " && read zoom_client
-          echo "Zoom secret: " && read zoom_secret
-          echo "Meeting ID: " && read zoom_meeting_id
+          echo "Zoom account: "
+          $zoom_account = trim(fgets(STDIN));
+          echo "Zoom client: "
+          $zoom_client = trim(fgets(STDIN));
+          echo "Zoom secret: "
+          $zoom_secret = trim(fgets(STDIN));
+          echo "Meeting ID: "
+          $zoom_meeting_id = trim(fgets(STDIN));
           echo "::set-env name=ZOOM_ACCOUNT::$zoom_account"
           echo "::set-env name=ZOOM_CLIENT::$zoom_client"
           echo "::set-env name=ZOOM_SECRET::$zoom_secret"
