@@ -16,7 +16,7 @@ Route::put('account/{account}', 'AccountController@update')
 Route::delete('account/{account}', 'AccountController@delete')
 	->name('account.delete');
 
-# MEETING
+# MEETING ROUTES
 
 Route::post('meeting/create', 'MeetingController@create')
 	->name('meeting.create');
