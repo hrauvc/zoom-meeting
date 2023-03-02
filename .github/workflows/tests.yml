@@ -20,3 +20,6 @@ jobs:
 
       - name: Run tests
         run: vendor/bin/phpunit
+
+      - name: Verify PHPUnit
+        run: vendor/bin/phpunit --version --configuration /home/runner/work/zoom-meeting/zoom-meeting/phpunit.xml
