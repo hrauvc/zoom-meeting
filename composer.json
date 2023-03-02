@@ -36,6 +36,6 @@
     },
     "require": {
         "guzzlehttp/guzzle": "^7.0",
-        "laravel/sanctum": "^3.2",
+        "laravel/sanctum": "^3.2"
     }
 }
