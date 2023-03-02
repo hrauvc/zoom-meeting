@@ -29,9 +29,9 @@
   <php>
     <env name="DB_CONNECTION" value="testing"/>
     <env name="APP_KEY" value="base64:2fl+Ktvkfl+Fuz4Qp/A75G2RTiWVA/ZoKZvp6fiiM10="/>
-    <env name="zoom_account" value="${ZOOM_ACCOUNT}"/>
-    <env name="zoom_client" value="${ZOOM_CLIENT}"/>
-    <env name="zoom_secret" value="${ZOOM_SECRET}"/>
-    <env name="zoom_meeting_id" value="${ZOOM_MEETING_ID}" />
+    <env name="zoom_account" value="7czFSoA-REqftiQFvFSqhg"/>
+    <env name="zoom_client" value="bbiKQXJsQs2KGF_qU0KWiA"/>
+    <env name="zoom_secret" value="h9CN7f3qTQN5eWL5GFkrOkce7ALUGi7T"/>
+    <env name="zoom_meeting_id" value="82405469553" />
   </php>
 </phpunit>
